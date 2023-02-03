@@ -1212,7 +1212,7 @@ nav.navigation > ul ul li.has_submenu:hover:before {
 
 .inner-slide-content {
   position: relative;
-  width: 450px;
+  /* width: 450px; */
   height: 240px;
   margin: 20% auto;
   text-align: center;
@@ -1251,10 +1251,11 @@ nav.navigation > ul ul li.has_submenu:hover:before {
   margin-bottom: 1em;
   padding: 1em;
   cursor: pointer;
-  color: #4c4c4c;
+  color: #8b8b8b;
 }
 
 .service-item:hover {
+  color: #4c4c4c;
   background: gray;
   -webkit-transition: background .5s ease-in;
   -o-transition: background .5s ease-in;
@@ -1266,7 +1267,7 @@ nav.navigation > ul ul li.has_submenu:hover:before {
 #services h3.service-title,
 .service-block h3.service-title {
   color: white;
-  margin-left: 40px;
+  /* margin-left: 40px; */
   margin-bottom: 15px;
   margin-top: 0;
   font-family: 'Play', sans-serif;
@@ -1394,7 +1395,7 @@ nav.navigation > ul ul li.has_submenu:hover:before {
   font-family: 'Play', sans-serif;
   text-transform: uppercase;
   line-height: 40px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 /* #about .about-text .widget-title,
 #about-extra .about-text .widget-title {
@@ -1402,9 +1403,14 @@ nav.navigation > ul ul li.has_submenu:hover:before {
 } */
 #about .about-text p,
 #about-extra .about-text p {
-  color: #4c4c4c;
+  color: #8b8b8b;
   padding: 10px 25px 0 0;
   font-family: "Roboto";
+}
+
+#about .about-text:hover p,
+#about-extra .about-text:hover p {
+  color: #4c4c4c;
 }
 #about .about-photo,
 #about-extra .about-photo {
@@ -1829,10 +1835,10 @@ nav.navigation > ul ul li.has_submenu:hover:before {
 .portfolio-filter-container h2.section-title {
   color: #ffffff;
 }
-.portfolio-filter-container h2.section-title::after {
+/* .portfolio-filter-container h2.section-title::after {
   width: 50px;
   background: #ffffff;
-}
+} */
 .portfolio-filter-container h2.section-title span {
   width: 40px;
   background: #ffffff;
@@ -2945,7 +2951,7 @@ nav.navigation > ul ul li.has_submenu:hover:before {
   text-align: left;
 }
 #main-footer .footer-address ul {
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 #main-footer .footer-address ul li {
   font-family: "Roboto";
